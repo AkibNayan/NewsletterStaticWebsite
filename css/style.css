@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 2000px;
+	width: 100%;
+}
+/*Header part starts from here*/
+/*font family Roboto and Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+a{
+	text-decoration: none;
+}
+.header{
+	background-color: black;
+	text-align: center;
+}
+.header ul li{
+	display: inline-block;
+	padding: 60px 0;
+}
+.header ul li a{
+	color: white;
+	font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header ul li a:hover{
+	color: tomato;
+	background-color: gray;
+	padding: 10px;
+	border-radius: 100%;
+}
+/*Header part ends from here*/
+
+/*Newsletter part starts from here*/
+.newsletter{
+	background-color: #f5f5f5;
+	padding-bottom: 60px;
+}
+.newsletter .container{
+	text-align: center;
+}
+.newsletter .container h1{
+	color: #2f323a;
+	padding-top: 80px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.newsletter .container p{
+	font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.newsletter .container .input-1{
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 136px;
+}
+.newsletter .container .input-2{
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 180px;
+}
+.newsletter .container .input-3{
+	padding: 15px 30px;
+}
+/*Newsletter part ends from here*/
+
+/*Lets Talk part start from here*/
+.letstalk{
+	background-color: #eee;
+}
+.letstalk .container{
+	text-align: center;
+}
+.letstalk .container h1{
+	font-size: 40px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.letstalk .container p{
+    font-size: 20px;
+    padding-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.letstalk .container .input-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 150px;
+    margin-right: 10px;
+}
+.letstalk .container .input-2{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 150px;
+}
+.letstalk .container .input-3{
+    margin-top: 36px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 150px;
+}
+.letstalk .container .input-4{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 150px;
+}
+.letstalk .container .input-5{
+	padding-left: 15px;
+    padding-right: 514px;
+    padding-top: 10px;
+    padding-bottom: 256px;
+    margin-top: 36px;
+    margin: 36px
+}
+.letstalk .container .btn-2{
+	color: white;
+	background-color: tomato;
+	margin-right: 562px;
+    padding: 15px 15px;
+    margin-bottom: 80px;
+    border: none;
+    border-radius: 5px;
+}
+/*Lets Talk part end from here*/
+
+/*footer parts start from here*/
+.footer{
+	background-color: black;
+	height: 800px;
+}
+.footer .container{
+	width: 1140px;
+	margin: auto;
+}
+.footer .container .footer-menu{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 20px;
+}
+.footer .container .col h5{
+	color: white;
+	padding-top: 50px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer .container .col h5:hover{
+	color: tomato;
+}
+.footer .container .col ul li{
+	padding-bottom: 10px;
+}
+.footer .container .col ul li a{
+	color: #CECECE;
+	font-family: "Poppins",Sans-serif;
+	font-size: 15px;
+
+}
+.footer .container .col ul li a:hover{
+	color:tomato;
+	background-color: gray;
+	padding: 10px;
+	border-radius: 100%;
+}
+.footer-bottom ul li{
+	display: inline-block;
+	padding-top: 30px;
+	padding-left: 5px;
+	margin-top: 15px;
+	border-right: 1px solid  #CECECE;
+}
+.last{
+	border-right: none !important;
+}
+.footer-bottom ul li a{
+	color: #CECECE;
+	font-family: "Poppins",Sans-serif;
+	font-size: 15px;
+}
+.footer-bottom ul li a:hover{
+	color: tomato;
+	background-color: gray;
+	padding: 15px;
+	border-radius: 100%;
+}
+.footer-bottom p{
+	color: #CECECE;
+	font-family: "Poppins",Sans-serif;
+	font-size: 15px;
+	padding-top: 10px;
+}
+.social-icon ul li{
+	display: inline-block;
+	padding: 15px 15px;
+}
+.social-icon ul li a i{
+	color: white;
+	background-color: tomato;
+	padding: 10px;
+	border-radius: 100%;
+	border: 2px solid white;
+	transition: 0.5s ease-in-out;
+
+}
+.social-icon ul li a i:hover{
+	color: tomato;
+	background-color: gray;
+	padding: 20px;
+	border-radius: 100%;
+	transform: scale(1.4);
+	transition: 0.5s ease-in-out;
+	transform: rotate(360deg);
+}
+/*footer parts end from here*/
