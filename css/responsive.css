@@ -1,0 +1,91 @@
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  body {
+    width: 117% !important;
+  }
+  .header{
+    height: 148px !important;
+  }
+  .header ul li{
+    padding: 56px 14px !important;
+  }
+  .header ul li a{
+    font-size: 38px !important;
+  }
+  .newsletter .container h1{
+    font-size: 58px !important;
+  }
+  .newsletter .container p {
+    padding: 0 40px 60px 40px !important;
+    font-size: 25px !important;
+    line-height: 53px !important;
+  }
+  .newsletter .container .input-1{
+    width: 25% !important;
+  }
+  .newsletter .container .input-2{
+    width: 25% !important;
+  }
+  .newsletter .container input::placeholder{
+    font-size: 25px !important;
+  }
+  .letstalk .container h1{
+    font-size: 58px !important;
+  }
+  .letstalk .container .input-1{
+    width: 30% !important;
+  }
+  .letstalk .container .input-2{
+    width: 30% !important;
+  }
+  .letstalk .container .input-3{
+    width: 30% !important;
+  }
+  .letstalk .container .input-4{
+    width: 30% !important;
+  }
+  .letstalk .container .input-5{
+    width: 45% !important;
+  }
+  .letstalk .container .btn-2{
+    margin-right: 861px !important;
+    padding: 20px 40px !important;
+  }
+  .letstalk .container p{
+    font-size: 25px !important;
+  }
+  .footer .container .col h5 {
+    font-size: 30px !important;
+  }
+  .footer .container .col ul li a{
+    font-size: 25px !important;
+  }
+  .footer-bottom ul li a{
+    font-size: 25px !important;
+  }
+  .footer-bottom p{
+    font-size: 25px !important;
+  }
+  .social-icon ul li a i{
+    font-size: 25px !important;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 760px) {
+  
+  /* CSS */
+  
+  
+}
